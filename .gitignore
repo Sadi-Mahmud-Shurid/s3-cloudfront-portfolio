@@ -1,0 +1,11 @@
+# AWS CLI installer artifacts
+aws/
+awscliv2.zip 
+
+# Probable Credentials
+.aws/
+*.pem
+*.env
+.env.*
+# Logs
+*.log
