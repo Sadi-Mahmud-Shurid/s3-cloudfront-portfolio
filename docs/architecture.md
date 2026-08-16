@@ -24,7 +24,7 @@
 | S3 bucket (`shurid-portfolio-<account-id>`) | Stores site content, versioning enabled |
 | CloudFront Origin Access Control | Identity CloudFront uses to authenticate to S3 |
 | CloudFront distribution | CDN + HTTPS termination + caching |
-| S3 bucket policy | Grants read access only to the CloudFront distribution above |
+| S3 bucket policy | Grants read access only to the CloudFront distribution above. Bucket blocks all public access (Default AWS setting; left untouched) |
 
 ## Deployment
 
