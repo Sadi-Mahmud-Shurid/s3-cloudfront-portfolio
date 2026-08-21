@@ -25,6 +25,10 @@ Short version: Browser -> CloudFront (HTTPS, caching) -> private S3 bucket (OAC-
 | CloudFront | CDN, HTTPS termination, edge caching |
 | IAM | Scoped user for CLI access (no root credentials used) |
 
+## AWS CLI Installation
+
+[Installing or updating to the latest version of the AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
+
 ## Deployment
 
 Prerequisites: AWS CLI configured with credentials that have S3 + CloudFront permissions.
