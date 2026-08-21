@@ -1,5 +1,7 @@
 # S3 + CloudFront Portfolio Site
 
+![Architecture diagram](docs/architecture.png)
+
 A static portfolio site deployed on AWS, served via CloudFront (CDN) in front of a private S3 bucket, secured with Origin Access Control (OAC). Built entirely via the AWS CLI. No console clicking, no third-party hosting.
 
 **Live site:** https://dmn35l6sg0bps.cloudfront.net
@@ -11,7 +13,7 @@ core AWS fundamentals (IAM, S3, CDN/CloudFront) before layering on more advanced
 
 ## Architecture
 
-See [docs/architecture.md](./docs/architecture.md) for the full breakdown and diagram.
+See [docs/architecture.md](./docs/architecture.md) for the full breakdown.
 
 Short version: Browser -> CloudFront (HTTPS, caching) -> private S3 bucket (OAC-only access).
 
